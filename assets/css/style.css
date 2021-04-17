@@ -1,0 +1,109 @@
+html {
+  padding: 52;
+  margin: 50;
+}
+
+body {
+  font-family: "Ubuntu";
+  background-color: #1a0b04;
+}
+
+/* navbar css starts here  */
+.bg-light {
+  background-color: #1a0b04 !important;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  /*font-size: 1.5rem;*/
+  color: #1a0b04;
+}
+
+.nav-link {
+  color: #1a0b04;
+  font-family: "Ubuntu";
+}
+
+.nav-link:hover {
+  background-color: #db3434;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content {
+  height: 100vh;
+  background-image: url();
+  color: #ffffff;
+  padding: 3rem;
+  /*border-bottom-left-radius: 45rem;
+  border-bottom-right-radius: 45rem; */
+  margin-bottom: 1vh;
+}
+
+.hero-img {
+  height: 70vh;
+  width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+  .hero-img {
+    display: none;
+  }
+}
+
+.get-started {
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 162%;
+  background-color: #fff;
+  color: #039be5 !important;
+  transition: 0.6s;
+}
+
+.get-started:hover {
+  text-decoration: none;
+  background-color: #bfdff0;
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content {
+  height: 60vh;
+  background-color: #ff8a65;
+  border-top-left-radius: 42rem;
+  border-top-right-radius: 42rem;
+  border-bottom-right-radius: 42rem;
+  border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row {
+  padding: 25vh 0;
+}
+
+.get-started-content a {
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 162%;
+  background-color: #039be5;
+  color: #fff;
+  transition: 0.9s;
+}
+
+.get-started-content a:hover {
+  background-color: #017ab6;
+  text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+/* footer css ends here  */
+
+.copyright{ color: rgb(204, 28, 28);
+
+}
